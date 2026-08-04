@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <header>
+        <h1> Mi proyecto web</h1>
+
+        <nav> 
+            <ul class="nav-lista">
+                <li><a href="#inicio"> inicio </a></li>
+                <li><a href="#carasteristica"> carasteristica </a></li>
+                <li><a href="#contacto"> contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <section id="carasteristica"> <h2> carasteristica</h2></section>
+        <div class="card">
+            <div class="card">
+                <h3> HTML5 </h3>
+                <p> Estrucutra sematica.</p>
+            </div>
+
+            <div class="card">
+                <h3> CSS3 </h3>
+                <p> Diseño moderno con flexbox.</p>
+            </div>
+
+            <div class="card">
+                <h3> Responsive </h3>
+                <p> Adaptable a distintos dispositivo.</p>
+            </div>
+        </div>
+        <table> 
+            <tr>
+                <th> Unidad </th>
+                 <th> Contenido </th>
+            </tr>
+
+            <tr>
+                <td> 1 </td>
+                 <td> HTML5 </td>
+            </tr>
+
+            <tr>
+                <td> 2 </td>
+                 <td> CSS3 </td>
+            </tr>
+
+            <tr>
+                <td> 3 </td>
+                 <td> flexbox </td>
+            </tr>
+
+        </table>   
+    </section> 
+    <section id="contacto">
+        <h2> contacto </h2>
+        <form> 
+            <label for="nombre">nombre</label>
+            <input type="text" id="nombre" required>
+
+            <label for="correo">correo</label>
+            <input type="email" id="correo" required>
+
+            <label for="mensaje"> mensaje</label>
+            <textarea id="mensaje" minlength="10" required></textarea>
+            
+            <button type="submit"> Enviar </button>
+           
+        </form>
+    </section>
+    </main>
+    <footer>
+        <p> 2026 Desarrolo de aplicaciones web </p>
+    </footer>
+    
+</body>
+</html>
