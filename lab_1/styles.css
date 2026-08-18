@@ -104,3 +104,21 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* Clase para modo oscuro */
+.modo-oscuro{
+    background: color #222;
+    color:#e6f2ff
+
+}
+
+
+/*Estilo simple para las tarjetas de estadistica */
+.tarjeta-stat {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
